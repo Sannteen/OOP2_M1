@@ -18,16 +18,16 @@ public class Main {
         int age = getValidInteger(scanner);
 
         // Input Card Details
-        System.out.println("Enter Card Number:");
+        System.out.print("Enter Card Number: ");
         int cardNumber = getValidInteger(scanner);
 
-        System.out.println("Enter Balance:");
+        System.out.print("Enter Balance: ");
         double balance = getValidDouble(scanner);
 
-        System.out.println("Enter PIN:");
+        System.out.print("Enter PIN: ");
         int pin = getValidInteger(scanner);
 
-        System.out.println("Enter Card Status (true for active, false for inactive):");
+        System.out.print("Enter Card Status (true for active, false for inactive):");
         boolean status = scanner.nextBoolean();
 
         // Create Client and Card objects

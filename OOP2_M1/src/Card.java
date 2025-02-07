@@ -59,10 +59,10 @@ public class Card {
 
     // Display method
     public void display() {
-        System.out.print("Card Details: ");
-        System.out.print("Card Number: " + cardNumber);
-        System.out.print("Balance: $" + balance);
-        System.out.print("Pin: " + pin);
-        System.out.print("Status: " + (status ? "Active" : "Inactive"));
+        System.out.println("Card Details: ");
+        System.out.println("Card Number: " + cardNumber);
+        System.out.println("Balance: $" + balance);
+        System.out.println("Pin: " + pin);
+        System.out.println("Status: " + (status ? "Active" : "Inactive"));
     }
 }
