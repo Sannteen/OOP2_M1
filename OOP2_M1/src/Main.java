@@ -5,16 +5,16 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Input Client Details
-        System.out.println("Enter Client ID:");
+        System.out.print("Enter Client ID: ");
         int id = getValidInteger(scanner);
 
-        System.out.println("Enter First Name:");
+        System.out.print("Enter First Name: ");
         String firstName = scanner.next();
 
-        System.out.println("Enter Last Name:");
+        System.out.print("Enter Last Name: ");
         String lastName = scanner.next();
 
-        System.out.println("Enter Age:");
+        System.out.print("Enter Age: ");
         int age = getValidInteger(scanner);
 
         // Input Card Details
